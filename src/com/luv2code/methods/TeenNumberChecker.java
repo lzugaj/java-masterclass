@@ -34,11 +34,11 @@ public class TeenNumberChecker {
         System.out.println(isTeen(13));
     }
 
-    private static boolean hasTeen(int firstNumber, int secondNumber, int thirdNumber) {
+    public static boolean hasTeen(int firstNumber, int secondNumber, int thirdNumber) {
         return isTeen(firstNumber) || isTeen(secondNumber) || isTeen(thirdNumber);
     }
 
-    private static boolean isTeen(int number) {
+    public static boolean isTeen(int number) {
         return (number >= 13) && (number <= 19);
     }
 }
